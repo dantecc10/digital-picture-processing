@@ -1,0 +1,59 @@
+# Procesamiento Digital de Imágenes
+
+Lunes: 10:00 - 11:00 (CCO4/403)
+Martes: 9:00 - 11:00 (CCO4/304)
+Jueves: 9:00 - 11:00 (CCO4/403)
+
+Tolerancia de inicio de clase: 15 minutos
+Tolerancia del docente: 30 minutos
+
+
+## Objetivo general
+
+El estudiante estará capacitado para usar, modificar e implementar operadores matemáticos para el desarrollo de aplicaciones y herramientas de manipulación de imágenes.
+
+
+## Contenido general
+- Introducción y fundamentos
+- Operaciones básicas en imágenes
+- Compresión
+- Dominio de la frecuencia
+
+### Bibliografía
+- Digital Image Processing. R. C. González, R. E. Woods. Pearson, 2008
+- Principles of digital image processing: fundamental techniques. Burger
+
+
+## Evaluación
+- Proyecto individual 70%
+- Exámenes, tareas, actividades de investigación 30%
+
+Notas:
+> Exámenes: no se especifica día exacto, únicamente la semana correspondiente
+
+> Cualquier actividad no ética (plagio, falsedad, etc.) será penalizada con la invalidación de la respectiva evaluación.
+
+> Los proyectos se evaluarán en la última semana de noviembre.
+
+### Consejos para hacer el proyecto
+IDE: Lazarus -> Free Pascal
+
+
+### Contacto
+Cubículo 207, CCO3
+e-mail: jose.olvera@correo.buap.mx
+Lunes a viernes en horario de oficina (fin de semana no se responden correos).
+Web: [José Arturo Olvera](hhtps://www.cs.buap.mx/~aolvera)
+
+### Plataforma
+Se usará Teams para compartir información y avisos del curso.
+El profesor **no** responde mensajes en esta plataforma.
+
+# Introducción
+Una imagen es una representación
+
+Imagen: función bidimensional f(x, y) donde x, y son coordenadas espaciales (planos) y la amplitud de f para cada par (x, y) se llama intensidad o nivel de gris.
+
+x, y, f son discretos -> imagen digital
+
+
