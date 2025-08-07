@@ -56,4 +56,39 @@ Imagen: función bidimensional f(x, y) donde x, y son coordenadas espaciales (pl
 
 x, y, f son discretos -> imagen digital
 
+## Espectro electromagnético
+La luz cromática (color) abarca las ondas con longitud 0.43-0.79 um  (nanómetros)
+
+Calidad de una fuente cromática de luz:
+- Radiancia: Cantidad total de energía que fluye desde la fuente de luz (medidad en Watts).
+- Luminancia: Cantidad de energía que un observador percibe de la fuente de luz (medida en lúmenes)
+-- Luminancia ~ 0 en emisiones no visibles
+- Brillo: Descriptor subjetivo de la percepción de la luz
+
+## Captura de una ID
+Para digitalizar una imagen se requiere de un dispositivo:
+- Intensidad de luz (grises)
+- Reflexión (color)
+
+En particular:
+- Scanner
+- Cámaras digitales
+- CCD (Coupled Charge Device)
+
+### CCD
+- Registra la cantidad de luz que se refleja en la escena.
+- Con un arreglo de CCD, se pueden digitalizar renglones de la escena.
+- Digitalización:
+-- Tono de gris: registra intensidad de luz
+-- Color: captura intensidad y cantidad de luz
+
+## Modelo simple
+- Una ID, es una función f(x, y) -> proporcional a la cantidad de luz que refleja
+- Cuando una imagen es generadoa por un proceso físico: 0 < f(x, y) < infinito
+En particular
+
+## Sampling and Quantization
+Dependencia de las características de los sensores utilizados en la captura.
+
+### Representación de una ID
 
