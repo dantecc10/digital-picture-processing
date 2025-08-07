@@ -91,4 +91,11 @@ En particular
 Dependencia de las características de los sensores utilizados en la captura.
 
 ### Representación de una ID
+La calidad de la imagen de pende de la capacidad y características del sensor en términos de la resolución -por ejemplo-.
+Existen dos tipos de resolución: la espacial y la de intensidad.
+
+La resolución de intensidad se cuantifica en términos de k-bits.
+
+Si se tiene un sensor de 3 bits, se tienen L = 2^k niveles de grises (8).
+
 
