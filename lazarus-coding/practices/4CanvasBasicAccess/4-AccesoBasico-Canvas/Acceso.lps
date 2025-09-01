@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="Acceso.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="22"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="accbasico.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Accbasico"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="52"/>
+        <CursorPos Y="57"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="54" Column="29" TopLine="44"/>
+      </Position1>
+      <Position2>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="128" Column="106" TopLine="47"/>
+      </Position2>
+      <Position3>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="67" Column="5" TopLine="50"/>
+      </Position3>
+      <Position4>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="54" Column="2" TopLine="38"/>
+      </Position4>
+      <Position5>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="60" Column="28" TopLine="50"/>
+      </Position5>
+      <Position6>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="54" Column="18" TopLine="47"/>
+      </Position6>
+      <Position7>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="61" Column="17" TopLine="47"/>
+      </Position7>
+      <Position8>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="67" Column="4" TopLine="57"/>
+      </Position8>
+      <Position9>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="35" Column="55" TopLine="17"/>
+      </Position9>
+      <Position10>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="68" Column="5" TopLine="58"/>
+      </Position10>
+      <Position11>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="67" Column="7" TopLine="59"/>
+      </Position11>
+      <Position12>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="129" Column="70" TopLine="125"/>
+      </Position12>
+      <Position13>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="63" Column="30" TopLine="55"/>
+      </Position13>
+      <Position14>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="69" Column="13" TopLine="53"/>
+      </Position14>
+      <Position15>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="36" Column="84" TopLine="27"/>
+      </Position15>
+      <Position16>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="73" Column="90" TopLine="71"/>
+      </Position16>
+      <Position17>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="56" Column="28" TopLine="46"/>
+      </Position17>
+      <Position18>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="63" Column="19" TopLine="53"/>
+      </Position18>
+      <Position19>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="78" Column="87" TopLine="75"/>
+      </Position19>
+      <Position20>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="36" TopLine="27"/>
+      </Position20>
+      <Position21>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="73" Column="18" TopLine="83"/>
+      </Position21>
+      <Position22>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="76" Column="3" TopLine="72"/>
+      </Position22>
+      <Position23>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="90" Column="56" TopLine="82"/>
+      </Position23>
+      <Position24>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="92" Column="56" TopLine="84"/>
+      </Position24>
+      <Position25>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="171" Column="42" TopLine="156"/>
+      </Position25>
+      <Position26>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="156" TopLine="147"/>
+      </Position26>
+      <Position27>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="155" TopLine="146"/>
+      </Position27>
+      <Position28>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="156" TopLine="147"/>
+      </Position28>
+      <Position29>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="171" Column="3" TopLine="156"/>
+      </Position29>
+      <Position30>
+        <Filename Value="accbasico.pas"/>
+        <Caret Line="158" Column="7" TopLine="144"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

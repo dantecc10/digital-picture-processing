@@ -1,0 +1,49 @@
+object Form1: TForm1
+  Left = 384
+  Height = 283
+  Top = 31
+  Width = 478
+  Caption = 'Form1'
+  ClientHeight = 283
+  ClientWidth = 478
+  object MainButton: TButton
+    Left = 31
+    Height = 25
+    Top = 37
+    Width = 75
+    Caption = 'Botón'
+    TabOrder = 0
+    OnClick = MainButtonClick
+  end
+  object StringGrid1: TStringGrid
+    Left = 168
+    Height = 48
+    Top = 40
+    Width = 216
+    DefaultColWidth = 40
+    DefaultRowHeight = 20
+    FixedCols = 0
+    FixedRows = 0
+    RowCount = 1
+    ScrollBars = ssNone
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 30
+    Height = 25
+    Top = 138
+    Width = 75
+    Caption = 'Botón 2'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object StringGrid2: TStringGrid
+    Left = 114
+    Height = 172
+    Top = 100
+    Width = 336
+    FixedCols = 5
+    FixedRows = 5
+    TabOrder = 3
+  end
+end

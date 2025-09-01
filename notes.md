@@ -99,3 +99,86 @@ La resolución de intensidad se cuantifica en términos de k-bits.
 Si se tiene un sensor de 3 bits, se tienen L = 2^k niveles de grises (8).
 
 
+## Resolución espacial
+DPI: Dots Per Inch
+
+La resolución espacial es clave porque refiere un mayor y mejor muestreo de la imagen digitalizada/capturada.
+
+## Formatos de imagen
+Existen por la necesidad de representación digital y compatibilidad entre formatos.
+
+Básicamente se dividen en dos categorías:
+
+### Formatos raster
+Aporta información de colores, intensidad y de coordenadas.
+- BMP (BitMap)
+- TIFF (Tagged Image File Format)
+- GIF (Graphics Interchange Format): Este formato se popularizó con el auge de la web, para reducir la calidad de la imagen (sus dimensiones y colores) y mejorar la velocidad de carga.
+- PNG (Portable Network Graphics)
+
+### Formatos vectoriales
+Aporta información espacial, de coordenadas y funciones.
+- SVG (Scalable Vector Graphics)
+- EPS (Encapsulated PostScript)
+- AI (Adobe Illustrator)
+
+## ¿Qué es la compresión?
+### Métodos de codificación
+- Codificación Hoffman: JPG se basa en esta codificación, almacenando la información de la imagen de forma comprimida
+- LVQ
+- Métodos aritméticos
+- LZV
+
+## Firmas de los formatos de archivos
+
+- PNG | 0x89504e47 | SQPNG
+- JPEG / JFIF |	0xffd8ffe0 | SQSQSQSQ
+- TIFF(little) | 0x4949a00 | II+SQ
+- TIFF(big) | 0x4d4d002a | MMSQ+
+- BMP | 0x424d
+- GIF | 0x4749463839
+- Photoshop | 0x38425053
+- PS/EPS | 0x25215053
+
+## Lazarus
+Es una RAD (Rapid Application Development).
+
+Estructura general de un programa en Lazarus
+Unit:
+- Uses
+- Tipo
+- Declaraciones privadas
+- Declaraciones públicas
+- Implementación
+
+Estructura general
+- Zona específica de declaración de variables
+- Cada instrucción finaliza con ";"
+- Cualquier variable debe ser declarada
+- Instrucciones de decisión (if...)
+- Instrucciones de control (for, while, repeat)
+- Delimitadores de código:
+	BEGIN
+	END
+
+Declaraciones
+Variables:
+```Var V1: integer;```
+```Var V2: char;```
+```Var C: real;```
+
+Tipos
+
+
+### Operaciones orientadas al punto
+- Operaciones en el dominio espacial
+- Operaciones (filtros) que se aplican de manera independiente a cada compoennte de la imagen I(i, j, k) para cada canal k
+- I'(i, j, k) = f(I(i, j, k))
+
+Ejemplos:
+- Intensidad / color
+- Brillo
+- Contraste
+- Umbralización
+- Histogramas
+- Aritméticas / lógicas
