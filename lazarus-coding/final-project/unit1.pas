@@ -106,7 +106,8 @@ end;
 
 procedure TForm1.MenuItem2Click(Sender: TObject);
 begin
-
+  if BITMAP = nil then
+  BITMAP := TBitmap.Create;
   // Seleccionar imagen
   if OpenPictureDialog1.Execute then
   begin

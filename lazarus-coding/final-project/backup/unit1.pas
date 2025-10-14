@@ -91,7 +91,7 @@ end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-  BITMAP:= TBitmap.Create; // Instanciar objeto de la clase TBitmap
+  BITMAP:= TBitmap.Create;
 end;
 
 procedure TForm1.Image1MouseMove(Sender: TObject; Shift: TShiftState; X, Y: Integer);
@@ -106,8 +106,7 @@ end;
 
 procedure TForm1.MenuItem2Click(Sender: TObject);
 begin
-  if BITMAP = nil then
-  BITMAP := TBitmap.Create;
+
   // Seleccionar imagen
   if OpenPictureDialog1.Execute then
   begin
