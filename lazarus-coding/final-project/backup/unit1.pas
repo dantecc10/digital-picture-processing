@@ -22,6 +22,7 @@ type
     StatusBar1: TStatusBar;
     procedure FormCreate(Sender: TObject);
     procedure Image1MouseMove(Sender: TObject; Shift: TShiftState; X, Y: Integer);
+    procedure MenuItem1Click(Sender: TObject);
     procedure MenuItem2Click(Sender: TObject);
   private
 
@@ -99,9 +100,14 @@ begin
   StatusBar1.Panels[2].Text:= IntToStr(Y);
   StatusBar1.Panels[4].Text:= IntToStr(MATRIX[x, y, 0]) + ', ' + IntToStr(MATRIX[x, y, 1]) + ', ' + IntToStr(MATRIX[x, y, 2]);
 end;
+procedure TForm1.MenuItem1Click(Sender: TObject);
+begin
+end;
 
 procedure TForm1.MenuItem2Click(Sender: TObject);
 begin
+  if BITMAP = nil then
+  BITMAP := TBitmap.Create;
   // Seleccionar imagen
   if OpenPictureDialog1.Execute then
   begin
