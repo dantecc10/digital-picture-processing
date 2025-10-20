@@ -25,6 +25,7 @@ type
     OpenPictureDialog1: TOpenPictureDialog;
     ScrollBox1: TScrollBox;
     StatusBar1: TStatusBar;
+    procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure Image1MouseMove(Sender: TObject; Shift: TShiftState; X, Y: Integer
       );
@@ -49,6 +50,8 @@ var
   BMAP: Tbitmap;   //para acceso a imagenes bmp
 
 implementation
+
+uses Unit2;
 
 {$R *.lfm}
 
@@ -110,6 +113,11 @@ begin
    BMAP:=Tbitmap.Create;  //Instanciar-crear objeto de la clase Tbitmap
 end;
 
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  Form2.Show;
+end;
+
 
 procedure TForm1.Image1MouseMove(Sender: TObject; Shift: TShiftState; X,
   Y: Integer);
@@ -143,6 +151,9 @@ begin
 end;
 
 procedure TForm1.MenuItem3Click(Sender: TObject);
+begin
+
+end;
 
 procedure TForm1.MenuItem4Click(Sender: TObject);
 var

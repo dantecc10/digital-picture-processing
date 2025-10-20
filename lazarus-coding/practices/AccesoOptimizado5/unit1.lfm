@@ -3,7 +3,7 @@ object Form1: TForm1
   Height = 532
   Top = 337
   Width = 746
-  Caption = 'Acceso-Scanline'
+  Caption = '}+¿'
   ClientHeight = 532
   ClientWidth = 746
   Menu = MainMenu1
@@ -68,6 +68,15 @@ object Form1: TForm1
       Enabled = False
       OnMouseMove = Image1MouseMove
     end
+  end
+  object Button1: TButton
+    Left = 520
+    Height = 25
+    Top = 23
+    Width = 75
+    Caption = 'Abrir otro formulario'
+    TabOrder = 2
+    OnClick = Button1Click
   end
   object MainMenu1: TMainMenu
     Left = 512

@@ -182,3 +182,48 @@ Ejemplos:
 - Umbralización
 - Histogramas
 - Aritméticas / lógicas
+
+
+### Operaciones orientadas a la región
+- Bordes
+- Suavizados
+- Texturas
+
+Añadir al proyecto la conversión de la imagen a grises mediante el rango medio,
+y el promedio.
+ Es importante antes de almacenar el valor redondear o truncar.
+
+## Binarización
+
+Se obtiene con 
+- B -> Promedio de intensidad
+- B = umbral de entrada
+
+
+## Contraste
+
+Manera básica de aumento de contraste: máximo contraste obtenido
+
+Ajuste automático de contraste
+Mapear valores claros/oscuros de manera lineal
+
+
+
+
+
+## Expansión automática de histograma
+
+De acuerdo al valor acumulado poblacional
+
+E[J, CANAL] = (255/NM)EH[k, canal]
+
+Sustituir el respectivo valor expandido
+
+
+NUEVO APUNTE
+
+## Escala
+Simple, o por interpolación
+
+La escala simple en reducción se realiza a través de la selección intercalada
+de filas (y columnas), perdiendo información.
